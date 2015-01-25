@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions cooperate in providing a cache construction for presenting
+## the inverse of a matrix. If the inverse is already calculated, that value in the
+## environment will be used. The cache can be cleared and reset on request.
 
-## Write a short comment describing this function
 ## This function is used for caching of inverse of matrices.
 ## It defines four functions; set, get, setsolve and getsolve and
 ## puts them in a list to be returned.
